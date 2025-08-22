@@ -18,10 +18,10 @@ export function AboutSection({ language }: AboutSectionProps) {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
           <div className="scroll-animate">
             <div className="flex items-center mb-6">
-              <div className="p-2 bg-yellow-600 rounded-xl mr-3">
+              <div className="p-2 bg-[#deba68] rounded-xl mr-3">
                 <Award className="h-6 w-6 text-white" />
               </div>
-              <span className="text-yellow-600 font-bold text-sm tracking-wide uppercase">{t.about.badge}</span>
+              <span className="text-[#deba68] font-bold text-sm tracking-wide uppercase">{t.about.badge}</span>
             </div>
             <h2 className="font-heading text-5xl md:text-6xl font-bold text-gray-900 mb-10">{t.about.title}</h2>
             <p className="text-xl text-gray-600 mb-16 leading-relaxed max-w-2xl mx-auto">{t.about.subtitle}</p>
@@ -31,13 +31,13 @@ export function AboutSection({ language }: AboutSectionProps) {
                 const IconComponent = featureIcons[index]
                 return (
                   <div key={index} className="flex items-start group">
-                    <div className="p-3 bg-yellow-100 rounded-2xl mr-8 group-hover:scale-110 transition-transform duration-300 shadow-sm">
-                      <IconComponent className="h-6 w-6 text-yellow-600" />
+                    <div className="p-3 bg-[#deba68]/20 rounded-2xl mr-8 group-hover:scale-110 transition-transform duration-300 shadow-sm">
+                      <IconComponent className="h-6 w-6 text-[#deba68]" />
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center mb-3">
                         <h4 className="font-bold text-lg text-gray-900 mr-3">{item.title}</h4>
-                        <span className="text-xs bg-yellow-100 text-yellow-700 px-2 py-1 rounded-full font-bold">
+                        <span className="text-xs bg-[#deba68]/20 text-[#deba68] px-2 py-1 rounded-full font-bold">
                           {item.badge}
                         </span>
                       </div>
@@ -51,16 +51,16 @@ export function AboutSection({ language }: AboutSectionProps) {
 
           <div className="scroll-animate">
             <div className="relative">
-              <div className="absolute -inset-4 bg-yellow-100 rounded-3xl blur-xl opacity-50" />
+              <div className="absolute -inset-4 bg-[#deba68]/20 rounded-3xl blur-xl opacity-50" />
               <img
                 src="/professional-cleaning-team.png"
                 alt="Professional cleaning team"
                 className="relative rounded-3xl shadow-2xl"
               />
-              <div className="absolute -bottom-8 -right-8 bg-yellow-600 p-8 rounded-3xl shadow-xl animate-float">
+              <div className="absolute -bottom-8 -right-8 bg-[#deba68] p-8 rounded-3xl shadow-xl animate-float">
                 <div className="text-center">
                   <div className="text-4xl font-bold text-white">5+</div>
-                  <div className="text-sm text-yellow-100 font-medium">{translations[language].common.yearsLicensed}</div>
+                  <div className="text-sm text-[#deba68]/80 font-medium">{translations[language].common.yearsLicensed}</div>
                 </div>
               </div>
               <div className="absolute -top-4 -left-4 bg-white p-4 rounded-2xl shadow-lg border border-gray-200">

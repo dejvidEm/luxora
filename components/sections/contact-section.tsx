@@ -123,7 +123,7 @@ export function ContactSection({ language }: ContactSectionProps) {
                 <Button
                   type="submit"
                   disabled={isSubmitting}
-                  className="bg-yellow-600 text-white hover:bg-yellow-700 hover:shadow-lg transition-all duration-300 text-lg px-12 py-6 rounded-2xl disabled:opacity-50"
+                  className="bg-yellow-600 text-white hover:bg-yellow-700 hover:shadow-lg transition-all duration-300 text-lg px-12 py-6 rounded-2xl disabled:opacity-50 cursor-pointer"
                 >
                   {isSubmitting ? t.contact.form.submitting : t.contact.form.submit}
                 </Button>
