@@ -14,7 +14,14 @@ export function ServicesSection({ language }: ServicesSectionProps) {
   const t = translations[language]
 
   return (
-    <section id="services" className="py-32 bg-gray-50">
+    <section
+      id="services"
+      className="py-32 relative"
+      style={{
+        background:
+          "linear-gradient(135deg, #ffffff 0%, #ffffff 50%,rgba(222, 187, 104, 0.26) 20%,rgba(222, 187, 104, 0.17) 100%)",
+      }}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-24 scroll-animate">
           <h2 className="font-heading text-5xl md:text-6xl font-bold text-gray-900 mb-6">{t.services.title}</h2>
@@ -32,7 +39,7 @@ export function ServicesSection({ language }: ServicesSectionProps) {
               >
                 <CardContent className="p-10 relative">
                   <div className="flex items-center mb-8">
-                    <div className="p-4 bg-yellow-600 rounded-2xl mr-4 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                    <div className="p-4 bg-[#deba68]/100 rounded-2xl mr-4 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                       <IconComponent className="h-8 w-8 text-white" />
                     </div>
                     <h3 className="font-heading text-xl font-bold text-gray-900">{service.title}</h3>

@@ -21,12 +21,9 @@ export function ProcessSection({ language }: ProcessSectionProps) {
           {t.process.steps.map((step, index) => (
             <div key={index} className="scroll-animate text-center group" style={{ animationDelay: `${index * 0.1}s` }}>
               <div className="relative mb-10">
-                <div className="w-20 h-20 bg-yellow-600 rounded-3xl flex items-center justify-center mx-auto group-hover:scale-110 group-hover:bg-yellow-700 transition-all duration-300 shadow-lg">
+                <div className="w-20 h-20 bg-[#deba68] rounded-3xl flex items-center justify-center mx-auto group-hover:scale-110 group-hover:bg-yellow-500 transition-all duration-300 shadow-lg">
                   <span className="text-2xl font-bold text-white">{step.step}</span>
                 </div>
-                {index < t.process.steps.length - 1 && (
-                  <div className="hidden lg:block absolute top-10 left-full w-full h-0.5 bg-yellow-200 -translate-x-10" />
-                )}
               </div>
               <h3 className="font-heading text-xl font-bold text-gray-900 mb-6">{step.title}</h3>
               <p className="text-gray-600 leading-relaxed">{step.description}</p>

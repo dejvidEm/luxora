@@ -29,7 +29,7 @@ export function HeroSection({ language }: HeroSectionProps) {
             <div className="flex flex-col sm:flex-row gap-6">
               <Button
                 size="lg"
-                className="bg-yellow-600 text-white hover:bg-yellow-700 hover:shadow-lg transition-all duration-300 text-lg px-10 py-6 rounded-2xl group cursor-pointer"
+                className="bg-[#deba68] text-white hover:bg-yellow-600 hover:shadow-lg transition-all duration-300 text-lg px-10 py-6 rounded-2xl group cursor-pointer"
               >
                 {t.hero.bookNow}
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />

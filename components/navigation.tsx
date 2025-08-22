@@ -19,14 +19,8 @@ export function Navigation({ language, onLanguageChange }: NavigationProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20 md:h-24">
           <div className="flex items-center space-x-3">
-            <div className="p-2 bg-yellow-600 rounded-2xl animate-pulse-glow shadow-lg">
-              <Sparkles className="h-6 w-6 md:h-8 md:w-8 text-white" />
-            </div>
             <div>
-              <span className="font-heading font-bold text-xl md:text-2xl text-gray-900">Luxora Clean</span>
-              <div className="text-xs text-yellow-600 font-semibold tracking-wide hidden sm:block">
-                {translations[language].common.licensedInsured}
-              </div>
+              <img src="/logo.png" alt="logo" className="md:w-32 w-24"/>
             </div>
           </div>
 
@@ -53,7 +47,7 @@ export function Navigation({ language, onLanguageChange }: NavigationProps) {
                 <span>{language === "en" ? "EN" : "SK"}</span>
               </button>
             </div>
-            <Button className="bg-yellow-600 text-white hover:bg-yellow-700 hover:shadow-lg transition-all duration-300 rounded-2xl px-6 cursor-pointer">
+            <Button className="bg-[#deba68] text-gray-900 hover:bg-yellow-600 hover:text-white hover:shadow-lg transition-all duration-300 rounded-2xl px-6 cursor-pointer">
               {t.nav.getQuote}
             </Button>
           </div>

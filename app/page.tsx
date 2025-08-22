@@ -55,7 +55,6 @@ export default function CleaningCompanyPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navigation language={language} onLanguageChange={setLanguage} />
-
       <HeroSection language={language} />
       <StatsSection language={language} />
       <ServicesSection language={language} />

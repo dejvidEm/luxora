@@ -11,7 +11,7 @@ export const translations = {
       title: "Professional Cleaning Services",
       subtitle:
         "For discerning clients who value their time and demand excellence. Experience premium cleaning services that match your sophisticated lifestyle.",
-      bookNow: "Book Premium Service",
+      bookNow: "Book Service",
       learnMore: "Discover Excellence",
     },
     services: {
@@ -203,7 +203,7 @@ export const translations = {
         details: "Additional Details",
         detailsPlaceholder:
           "Tell us more about your cleaning needs, preferred schedule, or any special requirements...",
-        submit: "Get Free Quote",
+        submit: "Get a Quote",
         submitting: "Sending...",
       },
     },
@@ -244,7 +244,7 @@ export const translations = {
       title: "Profesionálne upratovacie služby",
       subtitle:
         "Pre náročných klientov, ktorí si vážia svoj čas a vyžadujú si dokonalosť. Zažite prémiové upratovacie služby, ktoré zodpovedajú vášmu sofistikovanému životnému štýlu.",
-      bookNow: "Rezervovať prémiové služby",
+      bookNow: "Rezervovať služby",
       learnMore: "Objaviť dokonalosť",
     },
     services: {
@@ -444,7 +444,7 @@ export const translations = {
         details: "Dodatočné detaily",
         detailsPlaceholder:
           "Povedzte nám viac o vašich potrebách upratovania, preferovanom rozvrhu alebo akýchkoľvek špeciálnych požiadavkách...",
-        submit: "Získať bezplatnú ponuku",
+        submit: "Získať cenovú ponuku",
         submitting: "Odosielanie...",
       },
     },

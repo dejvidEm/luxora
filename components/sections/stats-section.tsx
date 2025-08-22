@@ -25,7 +25,7 @@ export function StatsSection({ language }: StatsSectionProps) {
                 className="text-center scroll-animate group hover:scale-105 transition-transform duration-300 ease-out"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="p-6 bg-yellow-50 rounded-3xl w-fit mx-auto mb-6 group-hover:scale-110 group-hover:bg-yellow-100 group-hover:shadow-lg transition-all duration-300 ease-out">
+                <div className="p-6 bg-[#deba68]/10 rounded-3xl w-fit mx-auto mb-6 group-hover:scale-110 group-hover:bg-yellow-100 group-hover:shadow-lg transition-all duration-300 ease-out">
                   <IconComponent className="h-8 w-8 text-yellow-600 group-hover:text-yellow-700 transition-colors duration-300" />
                 </div>
                 <div className="text-4xl font-bold text-gray-900 mb-3 group-hover:text-yellow-600 transition-colors duration-300">
